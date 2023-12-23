@@ -1,0 +1,8 @@
+service: () -> {
+    addOption: (text) -> (vec text);
+    addVote: (text) -> (text);
+    deleteOpstion: (text) -> (vec text);
+    getOptions: () -> (vec text) query;
+    getResult: () -> (vec record {key:text; value:nat64}) query;
+    resetOptuin: () -> (text);
+}

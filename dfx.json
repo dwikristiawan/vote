@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "voteCanister": {
+            "type": "custom",
+            "main": "src/voteCanister.ts",
+            "candid": "src/voteCanister.did",
+            "build": "npx azle voteCanister",
+            "wasm": ".azle/voteCanister/voteCanister.wasm",
+            "gzip": true
+        }
+    }
+}
+
